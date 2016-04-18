@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		966A7B451CBE2D3100EA3FC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B441CBE2D3100EA3FC0 /* AppDelegate.swift */; };
-		966A7B471CBE2D3100EA3FC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B461CBE2D3100EA3FC0 /* ViewController.swift */; };
+		966A7B471CBE2D3100EA3FC0 /* StationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B461CBE2D3100EA3FC0 /* StationSearchViewController.swift */; };
 		966A7B4A1CBE2D3100EA3FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966A7B481CBE2D3100EA3FC0 /* Main.storyboard */; };
 		966A7B4C1CBE2D3100EA3FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966A7B4B1CBE2D3100EA3FC0 /* Assets.xcassets */; };
 		966A7B4F1CBE2D3100EA3FC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966A7B4D1CBE2D3100EA3FC0 /* LaunchScreen.storyboard */; };
 		966A7B5A1CBE2D3100EA3FC0 /* TutuTrainStationSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B591CBE2D3100EA3FC0 /* TutuTrainStationSearchTests.swift */; };
 		966A7B651CBE2D3100EA3FC0 /* TutuTrainStationSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B641CBE2D3100EA3FC0 /* TutuTrainStationSearchUITests.swift */; };
+		966A7B751CBE2EEE00EA3FC0 /* StationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B741CBE2EEE00EA3FC0 /* StationSearchViewModel.swift */; };
+		966A7B771CBE302500EA3FC0 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B761CBE302500EA3FC0 /* Station.swift */; };
+		966A7B7A1CBE412900EA3FC0 /* JSONStationDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B791CBE412900EA3FC0 /* JSONStationDataParser.swift */; };
+		966A7B7C1CBE523D00EA3FC0 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B7B1CBE523D00EA3FC0 /* City.swift */; };
+		966A7B7E1CBE6BE100EA3FC0 /* CityDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B7D1CBE6BE100EA3FC0 /* CityDataStore.swift */; };
+		966A7B801CBE6D0400EA3FC0 /* URLHelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B7F1CBE6D0400EA3FC0 /* URLHelperFunctions.swift */; };
+		966A7B831CBE6F1400EA3FC0 /* StationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B821CBE6F1400EA3FC0 /* StationCell.swift */; };
+		966A7B8A1CBE977200EA3FC0 /* StationSearchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B891CBE977200EA3FC0 /* StationSearchDetailViewController.swift */; };
+		966A7B8C1CBE97EF00EA3FC0 /* StationSearchDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B8B1CBE97EF00EA3FC0 /* StationSearchDetailViewModel.swift */; };
+		966A7B8E1CBE994600EA3FC0 /* MapSnapshotter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B8D1CBE994600EA3FC0 /* MapSnapshotter.swift */; };
+		966A7B921CBEA65100EA3FC0 /* ScreenDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A7B911CBEA65100EA3FC0 /* ScreenDimensions.swift */; };
+		9679F1DD1CC04CC300AFA7A6 /* CustomSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9679F1DC1CC04CC300AFA7A6 /* CustomSearchController.swift */; };
+		9679F1DF1CC04E4100AFA7A6 /* StationSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9679F1DE1CC04E4100AFA7A6 /* StationSearchBar.swift */; };
+		9679F1E71CC2360800AFA7A6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9679F1E61CC2360800AFA7A6 /* AboutViewController.swift */; };
+		9679F1E91CC3A21100AFA7A6 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9679F1E81CC3A21100AFA7A6 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,7 @@
 /* Begin PBXFileReference section */
 		966A7B411CBE2D3100EA3FC0 /* TutuTrainStationSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutuTrainStationSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		966A7B441CBE2D3100EA3FC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		966A7B461CBE2D3100EA3FC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		966A7B461CBE2D3100EA3FC0 /* StationSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationSearchViewController.swift; sourceTree = "<group>"; };
 		966A7B491CBE2D3100EA3FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		966A7B4B1CBE2D3100EA3FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		966A7B4E1CBE2D3100EA3FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,21 @@
 		966A7B601CBE2D3100EA3FC0 /* TutuTrainStationSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutuTrainStationSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		966A7B641CBE2D3100EA3FC0 /* TutuTrainStationSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutuTrainStationSearchUITests.swift; sourceTree = "<group>"; };
 		966A7B661CBE2D3100EA3FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966A7B741CBE2EEE00EA3FC0 /* StationSearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationSearchViewModel.swift; sourceTree = "<group>"; };
+		966A7B761CBE302500EA3FC0 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		966A7B791CBE412900EA3FC0 /* JSONStationDataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONStationDataParser.swift; sourceTree = "<group>"; };
+		966A7B7B1CBE523D00EA3FC0 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		966A7B7D1CBE6BE100EA3FC0 /* CityDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDataStore.swift; sourceTree = "<group>"; };
+		966A7B7F1CBE6D0400EA3FC0 /* URLHelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLHelperFunctions.swift; sourceTree = "<group>"; };
+		966A7B821CBE6F1400EA3FC0 /* StationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationCell.swift; sourceTree = "<group>"; };
+		966A7B891CBE977200EA3FC0 /* StationSearchDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationSearchDetailViewController.swift; sourceTree = "<group>"; };
+		966A7B8B1CBE97EF00EA3FC0 /* StationSearchDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationSearchDetailViewModel.swift; sourceTree = "<group>"; };
+		966A7B8D1CBE994600EA3FC0 /* MapSnapshotter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapSnapshotter.swift; sourceTree = "<group>"; };
+		966A7B911CBEA65100EA3FC0 /* ScreenDimensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenDimensions.swift; sourceTree = "<group>"; };
+		9679F1DC1CC04CC300AFA7A6 /* CustomSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchController.swift; sourceTree = "<group>"; };
+		9679F1DE1CC04E4100AFA7A6 /* StationSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationSearchBar.swift; sourceTree = "<group>"; };
+		9679F1E61CC2360800AFA7A6 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		9679F1E81CC3A21100AFA7A6 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +127,12 @@
 		966A7B431CBE2D3100EA3FC0 /* TutuTrainStationSearch */ = {
 			isa = PBXGroup;
 			children = (
+				966A7B841CBE798300EA3FC0 /* Extensions */,
+				966A7B811CBE6F0400EA3FC0 /* Views */,
+				966A7B781CBE410000EA3FC0 /* Models */,
+				966A7B731CBE2ECF00EA3FC0 /* View Models */,
+				966A7B721CBE2EC300EA3FC0 /* View Controllers */,
 				966A7B441CBE2D3100EA3FC0 /* AppDelegate.swift */,
-				966A7B461CBE2D3100EA3FC0 /* ViewController.swift */,
 				966A7B481CBE2D3100EA3FC0 /* Main.storyboard */,
 				966A7B4B1CBE2D3100EA3FC0 /* Assets.xcassets */,
 				966A7B4D1CBE2D3100EA3FC0 /* LaunchScreen.storyboard */,
@@ -123,6 +157,57 @@
 				966A7B661CBE2D3100EA3FC0 /* Info.plist */,
 			);
 			path = TutuTrainStationSearchUITests;
+			sourceTree = "<group>";
+		};
+		966A7B721CBE2EC300EA3FC0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				966A7B461CBE2D3100EA3FC0 /* StationSearchViewController.swift */,
+				966A7B891CBE977200EA3FC0 /* StationSearchDetailViewController.swift */,
+				9679F1DC1CC04CC300AFA7A6 /* CustomSearchController.swift */,
+				9679F1E61CC2360800AFA7A6 /* AboutViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		966A7B731CBE2ECF00EA3FC0 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				966A7B741CBE2EEE00EA3FC0 /* StationSearchViewModel.swift */,
+				966A7B8B1CBE97EF00EA3FC0 /* StationSearchDetailViewModel.swift */,
+			);
+			name = "View Models";
+			sourceTree = "<group>";
+		};
+		966A7B781CBE410000EA3FC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				966A7B761CBE302500EA3FC0 /* Station.swift */,
+				966A7B791CBE412900EA3FC0 /* JSONStationDataParser.swift */,
+				966A7B7B1CBE523D00EA3FC0 /* City.swift */,
+				966A7B7D1CBE6BE100EA3FC0 /* CityDataStore.swift */,
+				966A7B8D1CBE994600EA3FC0 /* MapSnapshotter.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		966A7B811CBE6F0400EA3FC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				966A7B821CBE6F1400EA3FC0 /* StationCell.swift */,
+				9679F1DE1CC04E4100AFA7A6 /* StationSearchBar.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		966A7B841CBE798300EA3FC0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				966A7B7F1CBE6D0400EA3FC0 /* URLHelperFunctions.swift */,
+				966A7B911CBEA65100EA3FC0 /* ScreenDimensions.swift */,
+				9679F1E81CC3A21100AFA7A6 /* UIViewExtension.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +344,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				966A7B471CBE2D3100EA3FC0 /* ViewController.swift in Sources */,
+				966A7B471CBE2D3100EA3FC0 /* StationSearchViewController.swift in Sources */,
 				966A7B451CBE2D3100EA3FC0 /* AppDelegate.swift in Sources */,
+				966A7B8C1CBE97EF00EA3FC0 /* StationSearchDetailViewModel.swift in Sources */,
+				966A7B7C1CBE523D00EA3FC0 /* City.swift in Sources */,
+				966A7B7A1CBE412900EA3FC0 /* JSONStationDataParser.swift in Sources */,
+				966A7B921CBEA65100EA3FC0 /* ScreenDimensions.swift in Sources */,
+				966A7B8A1CBE977200EA3FC0 /* StationSearchDetailViewController.swift in Sources */,
+				9679F1DF1CC04E4100AFA7A6 /* StationSearchBar.swift in Sources */,
+				966A7B771CBE302500EA3FC0 /* Station.swift in Sources */,
+				966A7B7E1CBE6BE100EA3FC0 /* CityDataStore.swift in Sources */,
+				966A7B751CBE2EEE00EA3FC0 /* StationSearchViewModel.swift in Sources */,
+				9679F1E71CC2360800AFA7A6 /* AboutViewController.swift in Sources */,
+				9679F1E91CC3A21100AFA7A6 /* UIViewExtension.swift in Sources */,
+				966A7B8E1CBE994600EA3FC0 /* MapSnapshotter.swift in Sources */,
+				9679F1DD1CC04CC300AFA7A6 /* CustomSearchController.swift in Sources */,
+				966A7B801CBE6D0400EA3FC0 /* URLHelperFunctions.swift in Sources */,
+				966A7B831CBE6F1400EA3FC0 /* StationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +506,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NoLogo.TutuTrainStationSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -417,6 +518,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NoLogo.TutuTrainStationSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -485,6 +587,7 @@
 				966A7B6B1CBE2D3100EA3FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		966A7B6C1CBE2D3100EA3FC0 /* Build configuration list for PBXNativeTarget "TutuTrainStationSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +596,7 @@
 				966A7B6E1CBE2D3100EA3FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		966A7B6F1CBE2D3100EA3FC0 /* Build configuration list for PBXNativeTarget "TutuTrainStationSearchUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +605,7 @@
 				966A7B711CBE2D3100EA3FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
